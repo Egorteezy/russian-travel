@@ -1,0 +1,28 @@
+@media all and (min-width: 320px){  
+    .lead__group-4 {
+        width: 304.74px;
+        height: 85.53px;
+        margin: 9% 0 0 2%;
+    }
+}
+
+@media all and (min-width: 768px){
+    .lead__group-4 {
+        width: 731.38px;
+        height: 205.26px;
+    }
+}
+
+@media all and (min-width: 1024px){
+    .lead__group-4 {
+        width: 883.76px;
+        height: 248.02px;
+    }
+}
+
+@media all and (min-width: 1280px){
+    .lead__group-4 {
+        width: 937.09px;
+        height: 262.99px;
+    }
+}

@@ -1,0 +1,36 @@
+@media all and (min-width: 320px){
+    .place__title {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 109%;
+        width: 288px;
+        height: 35px;
+        margin: auto 0 48px 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+}
+
+@media all and (min-width: 768px){
+    .place__title {
+        width: 340px;
+        height: 46px;
+        font-size: 42px;
+        line-height: 110%;
+        margin: auto 0 48px 24px;
+    }
+}
+
+@media all and (min-width: 1024px){
+    .place__title {
+        width: 440px;
+        height: 76px;
+        font-size: 72px;
+        line-height: 106%;
+        margin: auto 0 48px;
+    }
+}
