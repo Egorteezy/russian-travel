@@ -8,8 +8,7 @@
         font-size: 32px;
         line-height: 109%;
         text-align: center;
-        margin: 0 auto 16px;
-        z-index: 1;
+        margin: 33px 16px 16px;
     }
 }
 
@@ -19,6 +18,18 @@
         height: 152px;
         font-size: 72px;
         line-height: 106%;
-        margin: 0 auto 32px;
+        margin: 0 104px 32px;
+        }
+}
+
+@media all and (min-width: 1024px){
+    .cover__title{
+        margin: 0 232px 32px;
+        }
+}
+
+@media all and (min-width: 1280px){
+    .cover__title{
+        margin: 0 312px 32px;
         }
 }
