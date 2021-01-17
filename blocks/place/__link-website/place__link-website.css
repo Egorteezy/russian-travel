@@ -17,4 +17,5 @@
 
 .place__link-website:hover{
     cursor: url(../../../custom-cursor.png);
+    opacity: 0.8;
 }
