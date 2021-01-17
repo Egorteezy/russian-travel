@@ -1,7 +1,7 @@
 .header{
     width: 288px;
     height: 42px;
-    align: center;
+    align-self: center;
     margin: 28px auto 0;
     display: flex;
     justify-content: space-between;
@@ -11,7 +11,7 @@
     .header{
         width: 720px;
         height: 52px;
-        align: center;
+        align-self: center;
         margin: 28px 24px 0;
         display: flex;
         justify-content: space-between;
@@ -22,7 +22,7 @@
     .header{
         width: 928px;
         height: 52px;
-        align: center;
+        align-self: center;
         margin: 28px 48px 0;
         display: flex;
         justify-content: space-between;
@@ -33,7 +33,7 @@
     .header{
         width: 1184px;
         height: 52px;
-        align: center;
+        align-self: center;
         margin: 28px 48px 0;
         display: flex;
         justify-content: space-between;
