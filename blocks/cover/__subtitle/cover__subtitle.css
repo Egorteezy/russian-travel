@@ -8,6 +8,7 @@
     line-height: 114%;
     text-align: center;
     margin: 0 auto;
+    z-index: 10;
     }
 
 @media all and (min-width: 768px){

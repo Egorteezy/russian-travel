@@ -16,18 +16,6 @@
         height: 152px;
         font-size: 72px;
         line-height: 106%;
-        margin: 0 90px 32px;
-        }
-}
-
-@media all and (min-width: 1024px){
-    .cover__title{
-        margin: 0 232px 32px;
-        }
-}
-
-@media all and (min-width: 1280px){
-    .cover__title{
-        margin: 0 312px 32px;
+        margin: 0 auto 32px;
         }
 }

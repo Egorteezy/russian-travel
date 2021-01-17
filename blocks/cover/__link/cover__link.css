@@ -5,7 +5,9 @@
     margin-top: 0;
     margin-left: 0;
     width: 100%;
+    z-index: 10;
     }
+
 .cover__link:hover{
     cursor: pointer;
     }
@@ -22,11 +24,10 @@
         width: 1024px;
         height: 640px;
     }
-}
+}*/
 
 @media all and (min-width: 1280px){
     .cover__link{
         width: 1184px;
-        height: 740px;
     }
-} */
+}

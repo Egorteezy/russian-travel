@@ -1,5 +1,5 @@
 .place{
-    width: 320px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
@@ -7,21 +7,18 @@
 
 @media all and (min-width: 768px){
     .place{
-        width: 720px;
         margin-bottom: 73px;
     }
 }
 
 @media all and (min-width: 1024px){
     .place{
-        width: 928px;
         margin-bottom: 80px;
     }
 }
 
 @media all and (min-width: 1280px){
     .place{
-        width: 984px;
         margin-bottom: 80px;
     }
 }
