@@ -1,12 +1,10 @@
-@media all and (min-width: 320px){
-    .photo-grid{
-        display: grid;
-        grid-template-columns: 288px;
-        grid-template-rows: repeat(12, 216px);
-        margin: 64px auto;
-        gap: 12px;
-        align-self: center;
-    }
+.photo-grid{
+    display: grid;
+    grid-template-columns: 288px;
+    grid-template-rows: repeat(12, 216px);
+    margin: 64px auto;
+    gap: 12px;
+    align-self: center;
 }
 
 @media all and (min-width: 768px){

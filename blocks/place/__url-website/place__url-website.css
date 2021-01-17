@@ -1,12 +1,10 @@
-@media all and (min-width: 320px){
-    .place__url-website {
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 100%;
-        letter-spacing: 0.2em;
-    }
+.place__url-website {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.2em;
 }
 
 @media all and (min-width: 1024px){

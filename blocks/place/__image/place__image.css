@@ -1,11 +1,8 @@
-@media all and (min-width: 320px){
-    .place__image{
-    width: 320px;
-    height: 320px;
-    margin: 0;
+.place__image{
+    width: 100%;
+    margin: 0 0 32px;
     border: 0;
     }
-}
 
 @media all and (min-width: 768px){
     .place__image{
