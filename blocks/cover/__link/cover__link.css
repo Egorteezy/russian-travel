@@ -11,9 +11,3 @@
 .cover__link:hover {
   cursor: pointer;
 }
-
-@media all and (min-width: 1280px) {
-  .cover__link {
-    width: 1184px;
-  }
-}

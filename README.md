@@ -9,3 +9,6 @@
 Был подключен шрифт, расположенный в репозитории.
 Для выделения ссылок был с=использован псевдоклас hover
 
+# Проект размещен на GitHub.com
+https://egorteezy.github.io/russian-travel/index.html
+
