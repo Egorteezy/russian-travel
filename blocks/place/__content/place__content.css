@@ -1,12 +1,11 @@
 .place__content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (min-width: 768px) {
+  .place__content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+  }
 }
-
-@media all and (min-width: 768px){
-    .place__content {
-        display: flex;
-        flex-direction: row;
-    }
-}
-

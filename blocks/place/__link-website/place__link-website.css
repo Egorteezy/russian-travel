@@ -1,21 +1,21 @@
-.place__link-website{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height:122%;
-    color: #FFFFFF;
-    text-decoration-line: underline;
-    margin-bottom: 32px;
+.place__link-website {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 122%;
+  color: #ffffff;
+  text-decoration-line: underline;
+  margin-bottom: 32px;
 }
 
-@media all and (min-width: 768px){
-    .place__link-website{
+@media all and (min-width: 768px) {
+  .place__link-website {
     margin-bottom: 48px;
-    }
+  }
 }
 
-.place__link-website:hover{
-    cursor: url(../../../custom-cursor.png);
-    opacity: 0.8;
+.place__link-website:hover {
+  cursor: url(../../../custom-cursor.png);
+  opacity: 0.8;
 }

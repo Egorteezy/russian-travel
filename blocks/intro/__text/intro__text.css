@@ -1,32 +1,25 @@
 .intro__text {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 163%;
-    margin-bottom: 34px;
-    margin-left: 16px;
-    margin-right: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  margin-bottom: 34px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
-@media all and (min-width: 768px){
-    .intro__text {
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 163%;
-        margin-bottom: 34px;
-        width: 720px;
-        margin-left: 24px;
-        margin-right: 0;
-    }
+@media all and (min-width: 768px) {
+  .intro__text {
+    width: 720px;
+    margin-left: 24px;
+    margin-right: 0;
+  }
 }
 
-@media all and (min-width: 1024px){
-    .intro__text {
-        width: 690px;
-        margin: 0;
-    }
+@media all and (min-width: 1024px) {
+  .intro__text {
+    width: 690px;
+    margin: 0;
+  }
 }
-

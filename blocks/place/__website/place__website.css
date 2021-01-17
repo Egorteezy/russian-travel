@@ -1,24 +1,24 @@
-.place__website{
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-margin-left: 16px;
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 16px;
 }
 
-@media all and (min-width: 768px){
-    .place__website{
-        margin-left:28px;
-    }
+@media all and (min-width: 768px) {
+  .place__website {
+    margin-left: 28px;
+  }
 }
 
-@media all and (min-width: 1024px){
-    .place__website{
-        margin-left:32px;
-    }
+@media all and (min-width: 1024px) {
+  .place__website {
+    margin-left: 32px;
+  }
 }
 
-@media all and (min-width: 1280px){
-    .place__website{
-        margin-left:40px;
-    }
+@media all and (min-width: 1280px) {
+  .place__website {
+    margin-left: 40px;
+  }
 }

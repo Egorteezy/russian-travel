@@ -1,37 +1,36 @@
 .place__paragraph {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  margin: 0 auto 25px;
+}
+
+@media all and (min-width: 768px) {
+  .place__paragraph {
     font-size: 16px;
     line-height: 163%;
-    margin: 0 auto 25px;
+    margin: 0 0 26px 28px;
+    max-width: 484px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 163%;
+    margin: 0 0 26px 32px;
+  }
 }
 
-@media all and (min-width: 768px){
-    .place__paragraph {
-        font-size: 16px;
-        line-height: 163%;
-        margin: 0 0 26px 28px;
-        max-width: 484px;
-    }
-}
-@media all and (min-width: 1024px){
-    .place__paragraph {
-        font-size: 18px;
-        line-height: 163%;
-        margin: 0 0 26px 32px;
-    }
-}
-
-
-@media all and (min-width: 1280px){
-    .place__paragraph {
+@media all and (min-width: 1280px) {
+  .place__paragraph {
     font-size: 18px;
     line-height: 163%;
     margin: 0 0 26px 40px;
-    }
+  }
 }
 
 .place__paragraph:last-of-type {
-margin-bottom: 0;
+  margin-bottom: 0;
 }

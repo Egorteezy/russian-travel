@@ -1,25 +1,25 @@
-.place__image{
-    width: 100%;
-    margin: 0 auto 32px;
-    border: 0;
-    }
+.place__image {
+  width: 100%;
+  margin: 0 auto 32px;
+  border: 0;
+}
 
-@media all and (min-width: 768px){
-    .place__image{
+@media all and (min-width: 768px) {
+  .place__image {
     max-width: 340px;
     /* margin-left: 24px; */
-    }
+  }
 }
 
-@media all and (min-width: 1024px){
-    .place__image{
+@media all and (min-width: 1024px) {
+  .place__image {
     max-width: 440px;
     margin: auto 0 48px;
-    }
+  }
 }
 
-@media all and (min-width: 1280px){
-    .place__image{
+@media all and (min-width: 1280px) {
+  .place__image {
     max-width: 460px;
-    }
+  }
 }
