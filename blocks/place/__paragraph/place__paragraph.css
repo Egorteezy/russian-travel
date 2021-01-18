@@ -9,8 +9,6 @@
 
 @media all and (min-width: 768px) {
   .place__paragraph {
-    font-size: 16px;
-    line-height: 163%;
     margin: 0 0 26px 28px;
     max-width: 484px;
   }
@@ -18,15 +16,12 @@
 @media all and (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
-    line-height: 163%;
     margin: 0 0 26px 32px;
   }
 }
 
 @media all and (min-width: 1280px) {
   .place__paragraph {
-    font-size: 18px;
-    line-height: 163%;
     margin: 0 0 26px 40px;
   }
 }

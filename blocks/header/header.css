@@ -1,6 +1,5 @@
 .header {
-  width: 288px;
-  height: 42px;
+  width: 90%;
   align-self: center;
   margin: 28px auto 0;
   display: flex;
@@ -10,32 +9,20 @@
 @media all and (min-width: 768px) {
   .header {
     width: 720px;
-    height: 52px;
-    align-self: center;
     margin: 28px 24px 0;
-    display: flex;
-    justify-content: space-between;
   }
 }
 
 @media all and (min-width: 1024px) {
   .header {
     width: 928px;
-    height: 52px;
-    align-self: center;
     margin: 28px 48px 0;
-    display: flex;
-    justify-content: space-between;
   }
 }
 
 @media all and (min-width: 1280px) {
   .header {
     width: 1184px;
-    height: 52px;
-    align-self: center;
     margin: 28px 48px 0;
-    display: flex;
-    justify-content: space-between;
   }
 }

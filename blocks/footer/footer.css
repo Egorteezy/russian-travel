@@ -6,12 +6,10 @@
 
 @media all and (min-width: 768px) {
   .footer {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 720px;
-    height: 18px;
     margin: 88px 24px 24px;
     align-self: center;
   }
@@ -21,7 +19,7 @@
   .footer {
     width: 928px;
     height: 18px;
-    margin: 92px 48px 24px;
+    margin: 92px auto 24px;
   }
 }
 
@@ -29,6 +27,6 @@
   .footer {
     width: 1184px;
     height: 18px;
-    margin: 92px 0 24px;
+    margin: 92px auto 24px;
   }
 }

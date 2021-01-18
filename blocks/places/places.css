@@ -9,6 +9,7 @@
 @media all and (min-width: 768px){
     .places {
         width: 720px;
+        margin: auto;
     }
 }
 

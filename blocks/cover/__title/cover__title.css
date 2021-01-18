@@ -12,7 +12,6 @@
 @media all and (min-width: 768px) {
   .cover__title {
     width: 560px;
-    height: 152px;
     font-size: 72px;
     line-height: 106%;
     margin: 0 auto 32px;

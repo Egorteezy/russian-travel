@@ -5,8 +5,10 @@
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 28px;
-  /* identical to box height, or 117% */
-  text-decoration-line: underline;
+  line-height: 117%;
+  text-decoration: none;
   margin-left: 18px;
 }
+
+.header__lang-link:hover {
+  opacity: 0.8;
