@@ -1,6 +1,6 @@
 .cover {
   width: 100%;
-  height: 62vw;
+  min-height: 62vw;
   display: flex;
   align-self: center;
   flex-direction: column;
@@ -14,6 +14,7 @@
 }
 
 .cover::before {
+  display: block;
   content: "";
   position: absolute;
   height: 100%;
@@ -24,16 +25,12 @@
 }
 
 .cover:hover::before {
-  background-color: #2A2C2F;
   opacity: 0.8;
-  z-index: 1;
   transition: 0.5s;
 }
 
 @media all and (min-width: 768px) {
   .cover {
-    /* max-width: 768px;
-    height: 480px; */
     margin: auto;
     margin-top: 90px;
   }
@@ -48,6 +45,7 @@
 @media all and (min-width: 1280px) {
   .cover {
     max-width: 1184px;
-    height: 740px;
+    min-height: 740px;
+    background-size: 100%;
   }
 }

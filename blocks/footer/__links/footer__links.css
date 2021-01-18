@@ -6,7 +6,6 @@
 
 @media all and (min-width: 768px) {
   .footer__links {
-    display: flex;
     flex-direction: row;
   }
 }
