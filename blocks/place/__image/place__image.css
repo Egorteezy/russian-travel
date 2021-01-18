@@ -14,7 +14,7 @@
 @media all and (min-width: 1024px) {
   .place__image {
     max-width: 440px;
-    margin: auto 0 48px;
+    margin: auto;
   }
 }
 
